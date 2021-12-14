@@ -53,17 +53,17 @@ python run_nerf.py --config configs/config_Balloon2.txt
 Every 100k iterations, you should get videos like the following examples
 
 The novel view-time synthesis results will be saved in `$ROOT_PATH/logs/Balloon2_H270_DyNeRF/novelviewtime`.
-![novelviewtime](https://filebox.ece.vt.edu/~chengao/free-view-video/gif/novelviewtime.gif)
+![novelviewtime](https://filebox.ece.vt.edu/~chengao/free-view-video/gif/novelviewtime_Balloon2.gif)
 <!-- <img src="https://filebox.ece.vt.edu/~chengao/free-view-video/gif/novelviewtime.gif" height="270" /> -->
 
 The reconstruction results will be saved in `$ROOT_PATH/logs/Balloon2_H270_DyNeRF/testset`.
-![testset](https://filebox.ece.vt.edu/~chengao/free-view-video/gif/testset.gif)
+![testset](https://filebox.ece.vt.edu/~chengao/free-view-video/gif/testset_Balloon2.gif)
 
 The fix-view-change-time results will be saved in `$ROOT_PATH/logs/Balloon2_H270_DyNeRF/testset_view000`.
-![testset_view000](https://filebox.ece.vt.edu/~chengao/free-view-video/gif/testset_view000.gif)
+![testset_view000](https://filebox.ece.vt.edu/~chengao/free-view-video/gif/testset_view000_Balloon2.gif)
 
 The fix-time-change-view results will be saved in `$ROOT_PATH/logs/Balloon2_H270_DyNeRF/testset_time000`.
-![testset_time000](https://filebox.ece.vt.edu/~chengao/free-view-video/gif/testset_time000.gif)
+![testset_time000](https://filebox.ece.vt.edu/~chengao/free-view-video/gif/testset_time000_Balloon2.gif)
 
 
 ### Rendering from pre-trained models
