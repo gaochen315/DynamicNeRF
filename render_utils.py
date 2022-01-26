@@ -664,7 +664,7 @@ def render_rays(t,
     if chain_5frames:
         raw_d_b_b = network_query_fn_d(pts_b_b, viewdirs, network_fn_d)
         raw_d_b_b_rgba = raw_d_b_b[..., :4]
-        rgb_map_d_b_b = raw2outputs_d(raw_d_b_b_rgba,
+        rgb_map_d_b_b, _ = raw2outputs_d(raw_d_b_b_rgba,
                                       z_vals,
                                       rays_d,
                                       raw_noise_std)
@@ -678,7 +678,7 @@ def render_rays(t,
     if chain_5frames:
         raw_d_f_f = network_query_fn_d(pts_f_f, viewdirs, network_fn_d)
         raw_d_f_f_rgba = raw_d_f_f[..., :4]
-        rgb_map_d_f_f = raw2outputs_d(raw_d_f_f_rgba,
+        rgb_map_d_f_f, _ = raw2outputs_d(raw_d_f_f_rgba,
                                       z_vals,
                                       rays_d,
                                       raw_noise_std)
