@@ -22,7 +22,7 @@ To get started, please create the conda environment `dnerf` by running
 conda create --name dnerf
 conda activate dnerf
 conda install pytorch=1.6.0 torchvision=0.7.0 cudatoolkit=10.1 matplotlib tensorboard scipy opencv -c pytorch
-pip install imageio configargparse timm lpips
+pip install imageio scikit-image configargparse timm lpips
 ```
 and install [COLMAP](https://colmap.github.io/install.html) manually. Then download MiDaS and RAFT weights
 ```
