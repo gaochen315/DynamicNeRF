@@ -19,7 +19,7 @@ The code is test with
 
 To get started, please create the conda environment `dnerf` by running
 ```
-conda create --name dnerf
+conda create --name dnerf python=3.7
 conda activate dnerf
 conda install pytorch=1.6.0 torchvision=0.7.0 cudatoolkit=10.1 matplotlib tensorboard scipy opencv -c pytorch
 pip install imageio scikit-image configargparse timm lpips
